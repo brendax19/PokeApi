@@ -1,0 +1,205 @@
+@font-face {
+  font-family: 'PokemonSolid';
+  src: url('./Pokemon Solid.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-family: 'PokemonSolid', sans-serif; 
+  color: #389ef8;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 90px;
+  text-shadow: 2px 2px 4px #ffa500, -2px -2px 4px #ffd700; 
+  transition: transform 0.3s ease; 
+}
+
+h1:hover {
+  transform: scale(1.1);
+}
+
+
+body {
+  height: 100vh;
+  background-image: url("../../../public/assets/fondo-azul-acuarela_23-2149320189.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+}
+
+
+                                                
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  width: 18rem;
+  height: 100%; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  font-family: 'PokemonSolid', sans-serif; 
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+}
+.navbar {
+  margin-bottom: 20px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 1.2rem;
+}
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow:  4px 8px rgba(8, 66, 100, 0.553); 
+  border-radius: 10px; 
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  transition: background-color 0.3s ease;
+}
+
+.card-body:hover {
+  background-color: #f8f9fa;
+}
+
+.nav-link:hover {
+  color: #ffc107;
+}
+
+
+.navbar-btn {
+  margin-left: 10px;
+}
+
+.btn-outline-light {
+  color: #fff;
+  border-color: #fff;
+}
+
+.btn-outline-light:hover {
+  background-color: #fff;
+  color: #212529;
+}
+.type-normal {
+  background-color: #a8a878; 
+}
+
+.type-fire {
+  background-color: #f08030; 
+}
+
+.type-water {
+  background-color: #6890f0; 
+}
+
+.type-electric {
+  background-color: #f8d030;
+}
+
+.type-grass {
+  background-color: #78c850; 
+}
+
+.type-ice {
+  background-color: #98d8d8; 
+}
+
+.type-fighting {
+  background-color: #c03028; 
+}
+
+.type-poison {
+  background-color: #a040a0; 
+}
+
+.type-ground {
+  background-color: #e0c068; 
+}
+
+.type-flying {
+  background-color: #a890f0; 
+}
+
+.type-psychic {
+  background-color: #f85888;
+}
+
+.type-bug {
+  background-color: #a8b820; 
+}
+
+.type-rock {
+  background-color: #b8a038; 
+}
+
+.type-ghost {
+  background-color: #705898; 
+}
+
+.type-dragon {
+  background-color: #7038f8; 
+}
+
+.type-dark {
+  background-color: #705848; 
+}
+
+.type-steel {
+  background-color: #b8b8d0;
+}
+
+.type-fairy {
+  background-color: #ee99ac; 
+}
+.search-bar-container {
+  margin-bottom: 10px;
+}
+
+.search-bar-input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Estilos para el filtro por tipo */
+.type-filter-container {
+  margin-bottom: 10px;
+}
+
+.type-filter-label {
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+}
+
+.type-filter-select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.type-filter-select option {
+  font-size: 16px;
+}
+
+/* Ajustes adicionales */
+.container {
+  padding: 20px;
+}
